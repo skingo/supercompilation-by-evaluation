@@ -16,6 +16,8 @@ module Utilities (
     module Text.PrettyPrint.HughesPJClass
   ) where
 
+import Prelude hiding ((<>))
+
 import IdSupply
 import StaticFlags
 
